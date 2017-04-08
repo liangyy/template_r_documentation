@@ -1,2 +1,16 @@
 # template_r_documentation
 This is a light template for documentation based on rmarkdown
+
+## Overview
+
+This is based on rmarkdown. As a quick look at how things work, the way the documentations glued together is:
+
+1. `_site.yml` tells what should be at navigation bar and it also determines the overall style.
+2. `index.html` and other files that are linked by `_site.yml` can further link to other files (namely sub contents).
+3. run `render_site([file-name])` to generate `html` file from `Rmd` file.
+4. add, commit, and push everything at the end of the day.
+
+## Notes
+
+1. `docs/` contains all `html` files and be sure to enable Github Pages (`docs/` mode).
+2. put all `Rmd` files at `rmd/` and in R terminal, run `render_site('rmd/filename.Rmd')` and it will generate the corresponding `html` at `docs/`
