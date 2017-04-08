@@ -14,3 +14,19 @@ This is based on rmarkdown. As a quick look at how things work, the way the docu
 
 1. `docs/` contains all `html` files and be sure to enable Github Pages (`docs/` mode).
 2. put all `Rmd` files at `rmd/` and in R terminal, run `render_site('rmd/filename.Rmd')` and it will generate the corresponding `html` at `docs/`
+
+## Build yourself
+
+All you need to get started is the files in `rmd/`. Once you get them, do the following in R terminal:
+
+```
+setwd('some_path/template_r_documentation')
+library(rmarkdown)
+render_site(input = 'rmd/')
+```
+
+To render a new file, say `new.Rmd`, do:
+
+```
+render_site(input = 'rmd/new.Rmd`)
+```
