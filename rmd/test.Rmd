@@ -1,0 +1,26 @@
+---
+title: "R Cheatsheet"
+# author: Yanyu Liang
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+---
+
+<style>
+pre code, pre, code {
+        white-space: pre !important;
+        overflow-x: scroll !important;
+        word-break: keep-all !important;
+        word-wrap: initial !important;
+}
+</style>
+        
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+options(width=2000)
+```
+
+# Generate 100 uniformly distributed random floats
+
+```{r}
+randoms <- runif(100)
+hist(randoms)
+```

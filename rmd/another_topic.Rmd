@@ -1,0 +1,12 @@
+---
+title: "Another Topic"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+---
+
+# Additional section 1
+
+# Additional section 2
+
+## Additional subsection 1
+
+Some words here.

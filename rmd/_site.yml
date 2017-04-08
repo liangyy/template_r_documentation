@@ -1,0 +1,21 @@
+name: "template_r_documentation"
+output_dir: "../docs"
+include: [".nojekyll"]
+exclude: ["include"]
+navbar:
+  title: "Template for R documentation"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Another Topic"
+      href: another_topic.html
+  right:
+    - icon: fa-github
+      href: https://github.com/liangyy/template_r_documentation
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cosmo
+    highlight: textmate
+    
