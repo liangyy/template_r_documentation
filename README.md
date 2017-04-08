@@ -1,5 +1,6 @@
 # template_r_documentation
-This is a light template for documentation based on rmarkdown
+
+This is a light template for documentation based on rmarkdown.
 
 ## Overview
 
@@ -30,3 +31,7 @@ To render a new file, say `new.Rmd`, do:
 ```
 render_site(input = 'rmd/new.Rmd`)
 ```
+
+## See also
+
+This is a super light and lazy (quick) solution. It is inspired by [this post](http://nickstrayer.me/RMarkdown_Sites_tutorial/) and [workflowr](https://github.com/jdblischak/workflowr). To get a more advanced and prettier solution, please check out [workflowr](https://github.com/jdblischak/workflowr).
