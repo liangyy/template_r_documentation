@@ -10,7 +10,7 @@ navbar:
     - text: "Another Topic"
       href: another_topic.html
   right:
-    - icon: fa-github
+    - icon: fab fa-github. # rmarkdown >= 2.6, see https://github.com/rstudio/rmarkdown/issues/1991
       href: https://github.com/liangyy/template_r_documentation
 output:
   html_document:
